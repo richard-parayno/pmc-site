@@ -14,4 +14,10 @@
 
 .header-item {
     margin: 0 50px 0 0;
+    text-decoration: none;
+    color: black;
+}
+
+.header-item:hover {
+    color: #165097;
 }

@@ -1,0 +1,20 @@
+.about-item {
+    margin-bottom: 150px;
+    max-width: 565px;
+}
+
+.item-support {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.item-section {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.item-text { 
+    line-height: 25px;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+}

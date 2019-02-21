@@ -8,11 +8,11 @@ const Header = ({ siteTitle }) => (
   <header className="header-container">
     <div>
       <div className="header-links">
-        <a className="header-item">About Us</a>
-        <a className="header-item">About PMC</a>
-        <a className="header-item">The Organizers</a>
-        <a className="header-item">Contact Us</a>
-        <a className="header-item">Our Sponsors</a>
+        <Link className="header-item" to='/about-us'>About Us</Link>
+        <Link className="header-item" to='/'>About PMC</Link>
+        <Link className="header-item" to='/'>The Organizers</Link>
+        <Link className="header-item" to='/'>Contact Us</Link>
+        <Link className="header-item" to='/'>Our Sponsors</Link>
       </div>
     </div>
   </header>
