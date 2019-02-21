@@ -9,7 +9,7 @@ const Header = ({ siteTitle }) => (
     <div>
       <div className="header-links">
         <Link className="header-item" to='/about-us'>About Us</Link>
-        <Link className="header-item" to='/'>About PMC</Link>
+        <Link className="header-item" to='/about-pmc'>About PMC</Link>
         <Link className="header-item" to='/'>The Organizers</Link>
         <Link className="header-item" to='/'>Contact Us</Link>
         <Link className="header-item" to='/'>Our Sponsors</Link>
