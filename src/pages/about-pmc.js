@@ -10,7 +10,7 @@ import '../css/aboutus.css'
 const AboutPMC = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <div className="about-pmc">
+    <div className="about-us">
         <div className="about-item">
             <h2 className="item-support">About PMC</h2>
             <h1 className="item-section">What is the Philippine Model Congress?</h1>

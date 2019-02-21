@@ -2,10 +2,13 @@
     height: 70px;
     width: 100%;
     display: flex;
+    background-color: #fdfdfd;
     align-items: center;
     justify-content: flex-end;
     font-size: 16px;
     margin: 0 0 50px 0;
+    position: fixed;
+    top: 0;
 }
 
 .header-links {
