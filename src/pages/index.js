@@ -5,16 +5,20 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
+import '../css/index.css'
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="landing">
+      <div className="header-main">
+        <h1 className="h1">Redefine the role of the Filipino Youth.</h1>
+      </div>
+      <div className="button-group">
+        <a href="https://www.google.com"><button className="button">Apply as a Delegate</button></a>
+        <a href="https://www.google.com"><button className="button">Apply as a Moderator</button></a>
+      </div>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 

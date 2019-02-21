@@ -1,0 +1,25 @@
+.h1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.landing {
+    margin-top: 100px;
+}
+
+.header-main {
+    max-width: 612px;
+}
+
+.button-group {
+    margin-top: 85px;
+}
+
+.button {
+    border: none;
+    background-color: #165097;
+    padding: 20px;
+    margin-right: 20px;
+    color: #fdfdfd; 
+    cursor: pointer;
+}

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `The Philippine Model Congress 2019`,
+    description: `Welcome to the Official Website of the Philippine Model Congress 2019!`,
+    author: `richardparayno.design`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
