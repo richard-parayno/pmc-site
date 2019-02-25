@@ -25,4 +25,14 @@
     margin-right: 20px;
     color: #fdfdfd; 
     cursor: pointer;
+    transition: all 0.3s ease;    
+}
+
+.button:hover {
+    background-color: #27c971;
+    text-decoration: underline;
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
 }
