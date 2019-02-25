@@ -15,8 +15,8 @@ const IndexPage = () => (
         <h1 className="h1">Redefine the role of the Filipino Youth.</h1>
       </div>
       <div className="button-group">
-        <a href="https://www.google.com"><button className="button">Apply as a Delegate</button></a>
-        <a href="https://www.google.com"><button className="button">Apply as a Moderator</button></a>
+        <a href="http://bit.ly/PMC2019-Delegates"><button className="button">Apply as a Delegate</button></a>
+        <a href="http://bit.ly/PMC2019-Moderators"><button className="button">Apply as a Moderator</button></a>
       </div>
     </div>
   </Layout>
