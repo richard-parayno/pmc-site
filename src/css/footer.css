@@ -1,0 +1,39 @@
+.footer-main {
+    background-color: #414141;
+    color: #fdfdfd;
+    font-size: 16px;
+    padding-top: 54px;
+    padding-bottom: 54px;
+}
+
+.max-wrapper {
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.footer-item {
+    text-decoration: none;
+    font-weight: 400;
+    color: #fdfdfd;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.h2 {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .max-wrapper {
+        display: block;
+    }
+    .flex-column {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+}

@@ -10,9 +10,9 @@ const Header = ({ siteTitle }) => (
     <Link className="header-item" activeClassName="active" to='/'>Home</Link>
     <Link className="header-item" activeClassName="active" to='/about-us'>About Us</Link>
     <Link className="header-item" activeClassName="active" to='/about-pmc'>About PMC</Link>
-    <Link className="header-item" activeClassName="active" to='/'>The Organizers</Link>
+    {/* <Link className="header-item" activeClassName="active" to='/'>The Organizers</Link>
     <Link className="header-item" activeClassName="active" to='/'>Contact Us</Link>
-    <Link className="header-item" activeClassName="active" to='/'>Our Sponsors</Link>
+    <Link className="header-item" activeClassName="active" to='/'>Our Sponsors</Link> */}
   </header>
 )
 

@@ -7,6 +7,12 @@
 .landing {
     margin-top: 100px;
     padding-top: 70px;
+    padding-bottom: 80px;
+}
+
+.landing-after {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 .header-main {
@@ -14,7 +20,7 @@
 }
 
 .button-group {
-    margin-top: 85px;
+    margin-top: 10px;
 }
 
 .button {
@@ -22,17 +28,57 @@
     border: none;
     background-color: #165097;
     padding: 20px;
+    margin-top: 15px;
     margin-right: 20px;
+    width: 200px;
     color: #fdfdfd; 
     cursor: pointer;
     transition: all 0.3s ease;    
+    border-radius: 10px;
+}
+
+.button.no-width {
+    width: auto;
 }
 
 .button:hover {
     background-color: #27c971;
-    text-decoration: underline;
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
     transition: all 0.3s ease;
+}
+
+.illu {
+    justify-self: center;
+    align-self: center;
+    flex: 1;
+}
+
+.content {
+    margin-left: 20px;
+    margin-right: 20px;
+    flex: 1;
+}
+
+.about-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 0 70px 0;
+}
+
+.about-grid.reverse {
+    flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 768px) {
+    .about-grid {
+        display: block;
+    }
+
+    .content {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 }
