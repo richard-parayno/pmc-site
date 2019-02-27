@@ -9,7 +9,7 @@ import '../css/aboutus.css'
 
 const AboutUs = () => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="About Us" keywords={[`gatsby`, `application`, `react`]} />
     <div className="about-us">
         <div className="about-item">
             <h2 className="item-support">About Us</h2>

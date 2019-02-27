@@ -5,14 +5,21 @@
 }
 
 .landing {
-    margin-top: 100px;
-    padding-top: 70px;
+    padding-top: 170px;
     padding-bottom: 80px;
+}
+
+.maxwidth {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.layout-bg {
+    background-color: #F8F8F8;
 }
 
 .landing-after {
     margin-top: 60px;
-    margin-bottom: 60px;
 }
 
 .header-main {
