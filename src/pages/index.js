@@ -13,8 +13,8 @@ const IndexPage = () => (
     <div className="layout-bg">
       <div className="landing maxwidth">
         <div className="header-main">
-          <h1 className="h1">Redefine the role of the Filipino Youth.</h1>
-          <p>Join the 8ᵗʰ Philippine Model Congress.</p>
+          <h1 className="h1">Join the 8th Philippine Model Congress.</h1>
+          <p>Redefining the Role of the Filipino Youth this 2019.</p>
         </div>
         <div className="button-group">
           <a href="http://bit.ly/PMC2019-Delegates" target="_blank"><button className="button">Apply as a Delegate</button></a>

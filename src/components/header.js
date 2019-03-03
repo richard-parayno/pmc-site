@@ -8,6 +8,7 @@ const Header = ({ siteTitle }) => (
   <header className="header-links">
     <Link className="header-item pull-left" activeClassName="active" >Logo</Link>
     <Link className="header-item" activeClassName="active" to='/'>Home</Link>
+    <Link className="header-item" activeClassName="active" to='/how-to-register'>How to Register</Link>
     <Link className="header-item" activeClassName="active" to='/about-us'>About Us</Link>
     <Link className="header-item" activeClassName="active" to='/about-pmc'>About PMC</Link>
     {/* <Link className="header-item" activeClassName="active" to='/'>The Organizers</Link>
