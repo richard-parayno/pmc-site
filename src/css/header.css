@@ -31,7 +31,8 @@
     transition: ease all 0.2s;
 }
 
-.header-item.pull-left {
+
+.pull-left {
     margin: 0 auto 0 0;
 }
 
@@ -45,9 +46,10 @@
     }
 
     .header-links-mobile {
+        width: 100%;
         display: flex;
         align-items: center;
-        justify-content: center;
+        padding: 25px 15px 25px 15px;
         font-size: 16px;
         position: fixed;
         top: 0;

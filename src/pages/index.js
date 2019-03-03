@@ -38,10 +38,10 @@ const IndexPage = () => (
     <div className="layout-bg">
       <div className="landing-after maxwidth">
         <div className="about-grid reverse">
-          <div class="illu">
+          <div className="illu">
             <img viewBox="0 0 938 604" src={require('../images/community.svg')}></img>
           </div>
-          <div class="content">
+          <div className="content">
             <h2 className="item-support">About Us</h2>
             <h1 className="item-section">Who are we?</h1>
             <p className="item-text">The Philippine Model Congress is organized by a group of purpose-driven student leaders from different universities who envision a progressive Philippines and aim to make a difference by maximizing the potential of the Filipino Youth through empowerment and civic movement.</p>
