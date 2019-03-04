@@ -1,8 +1,11 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Image from "../components/image"
 
 import { slide as Menu } from 'react-burger-menu'
+
+
 
 
 import '../css/header.css'
@@ -49,7 +52,7 @@ var styles = {
 const Header = ({ siteTitle }) => (
   <header>
     <div className="header-links">
-      <Link className="header-item pull-left" to="/">Logo</Link>
+      <Image />
       <Link className="header-item" activeClassName="active" to='/'>Home</Link>
       <Link className="header-item" activeClassName="active" to='/how-to-register'>How to Register</Link>
       <Link className="header-item" activeClassName="active" to='/about-us'>About Us</Link>
@@ -59,6 +62,7 @@ const Header = ({ siteTitle }) => (
     <Link className="header-item" activeClassName="active" to='/'>Our Sponsors</Link> */}
     </div>
     <Menu styles={styles} width={'100%'}>
+      <Image />
       <Link className="header-item" activeClassName="active" to='/'>Home</Link>
       <Link className="header-item" activeClassName="active" to='/how-to-register'>How to Register</Link>
       <Link className="header-item" activeClassName="active" to='/about-us'>About Us</Link>

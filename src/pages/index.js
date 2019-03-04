@@ -11,7 +11,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="layout-bg">
-      <div className="landing maxwidth">
+      <div className="landing maxwidth landing-flex">
         <div className="header-main">
           <h1 className="h1">Join the 8th Philippine Model Congress.</h1>
           <p>Redefining the Role of the Filipino Youth this 2019.</p>
