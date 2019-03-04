@@ -31,12 +31,15 @@
     transition: ease all 0.2s;
 }
 
-
 .pull-left {
     margin: 0 auto 0 0;
 }
 
 .header-links-mobile {
+    display: none;
+}
+
+.bm-burger-button {
     display: none;
 }
 
@@ -65,5 +68,15 @@
         position: fixed;
         top: 0;
         background-color: #F8F8F8;
+    }
+
+
+    .bm-burger-button {
+        display: block;
+        position: fixed;
+        width: 36px;
+        height: 30px;
+        left: 15px;
+        top: 36px;
     }
 }
