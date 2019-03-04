@@ -27,7 +27,7 @@ const HowToRegister = () => (
               <p className="item-text">Follow the instructions and deadlines stated in your acceptance letter regarding the confirmation process. This should be sent in the email address you used in your application.</p>
           </div>
         </div>
-        <div className="landing-after maxwidth">
+        {/* <div className="landing-after maxwidth">
           <div className="about-item">
               <h2 className="item-support">How to Register - Cost Information</h2>
               <h1 className="item-section">What is inclusive in the entrance/delegate fee?</h1>
@@ -40,7 +40,7 @@ const HowToRegister = () => (
               <h1 className="item-section">Can I have an official letter containing the breakdown of the delegate fee?</h1>
               <p className="item-text">Yes! Simply inform your ambassador of your request for an “Entrance Fee Breakdown To (me/school),” indicating your full name as recognized by the school, the name of your institution, the address of your institution, the name of the addressee, the position of the addressee in your institution, and the email address of the addressee..</p>
           </div>
-        </div>
+        </div> */}
     </div>
   </Layout>
 )
