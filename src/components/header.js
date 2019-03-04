@@ -12,7 +12,7 @@ var styles = {
     position: 'fixed',
     width: '36px',
     height: '30px',
-    left: '36px',
+    left: '15px',
     top: '36px'
   },
   bmBurgerBars: {
@@ -65,14 +65,12 @@ const Header = ({ siteTitle }) => (
       <Link className="header-item" activeClassName="active" to='/'>Contact Us</Link>
     <Link className="header-item" activeClassName="active" to='/'>Our Sponsors</Link> */}
     </div>
-    <div className="header-links-mobile">
-      <Menu styles={styles} width={'100%'}>
-        <Link className="header-item" activeClassName="active" to='/'>Home</Link>
-        <Link className="header-item" activeClassName="active" to='/how-to-register'>How to Register</Link>
-        <Link className="header-item" activeClassName="active" to='/about-us'>About Us</Link>
-        <Link className="header-item" activeClassName="active" to='/about-pmc'>About PMC</Link>
-      </Menu>
-    </div>
+    <Menu styles={styles} width={'100%'}>
+      <Link className="header-item" activeClassName="active" to='/'>Home</Link>
+      <Link className="header-item" activeClassName="active" to='/how-to-register'>How to Register</Link>
+      <Link className="header-item" activeClassName="active" to='/about-us'>About Us</Link>
+      <Link className="header-item" activeClassName="active" to='/about-pmc'>About PMC</Link>
+    </Menu>
   </header>
 )
 

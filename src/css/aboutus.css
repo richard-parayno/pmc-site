@@ -24,3 +24,11 @@
     line-height: 25px;
     font-size: 16px;
 }
+
+
+@media screen and (max-width: 768px) {
+    .about-us {
+        margin-top: 0px;
+    }
+
+}

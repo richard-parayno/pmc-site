@@ -51,6 +51,12 @@
         transition: ease all 0.2s;
     }
 
+    .header-item:hover {
+        transition: ease all 0.2s;
+        border: 2px solid #165097;
+        border-radius: 25px;
+    }    
+
     .header-links-mobile {
         width: 100%;
         display: flex;
